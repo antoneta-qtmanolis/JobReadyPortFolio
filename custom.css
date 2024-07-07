@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: rgb(3, 15, 3);
+    color: ivory;
+}
+h1{
+    font-size: 47px;
+}
+ /* Nav Section */
+.nav-bar{
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+.nav-block{
+    display: flex;
+    margin-left: 750px;
+}
+span li{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: static;
+}
+li a {
+    color: rgb(189, 189, 161);
+    margin-inline-end: 27px;
+    font-weight:400;
+    font-size: 1em; 
+    padding: 8px;    
+    text-decoration: none; 
+}
+.nav-list li{
+    position: relative;
+}
+.nav-list a{
+    padding-bottom: 5px;
+    position: relative;
+}
+.nav-list a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -4px;                           /* Distance below the nav */
+    height: 2px;
+    background-color: #D27D2D;    /* Color of the underline */
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+.nav-list a:hover::after {
+    transform: scaleX(1);
+}
+
+
+ /* Home Section */
+ #home{
+    margin-top: 120px;
+    margin-left: 0%;
+    margin-right: 0;
+    margin-bottom: 100px;
+ }
+ .intro{
+    text-align: center;
+ }
+ .intro h1{
+    color: rgb(84, 231, 84);
+    margin-bottom: 0;
+ }
+ .intro h3{
+    font-weight: 100;
+    color: rgb(173, 171, 171);
+    font-size: 25px;
+    margin-top: 0;
+ }
+ .intro img{
+    width: 420px;
+    height: 390px;
+ }
+
+
+ /* About-Me Section */
+ #about-me{
+    margin-top: 120px;
+    margin-left: 0%;
+    margin-right: 0;
+    margin-bottom: 100px;
+ }
+ .about-me-top{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 200px;
+ }
+ .about-me-top img{
+    width: 20em;
+    height: 20em;
+    margin-left:150px;
+ }
+ .greetings{
+    margin-left: 70px;
+    padding-right: 170px;
+ }
+ .greetings h2{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+ }
+ .greetings p{
+    font-size: 1.4em;
+    margin-top: 0;
+    color: #C1E1C1;
+ }
+
+
+ .about-me-middle{
+    margin-bottom: 100px;
+    text-align: center;
+ }
+ .about-me-middle h2{
+    font-size: 2.5em;
+    color: rgb(84, 231, 84);
+    margin-bottom: 3em;
+ }
+ .skills{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+ }
+ .skills div{
+    margin-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ .skills div img{
+    width: 80px;
+    height: 67px;
+ }
+
+ .about-me-bottom{
+    margin-bottom: 50px;
+    text-align: center;
+ }
+ .seminars-trainings-block{
+    display: flex;
+ }
+ .seminars-block{
+    display: flex;
+ }
+ .trainings-block{
+    display: flex;
+ }
+
+
+
+
+
+ .projects-block img{
+    display: flex;
+    width: 150px;
+    height: 90px;
+ }
