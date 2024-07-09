@@ -121,6 +121,7 @@ li a {
  .greetings h2{
     font-size: 3em;
     margin-bottom: 0.5em;
+    color: #D27D2D;
  }
  .greetings p{
     font-size: 1.4em;
@@ -135,7 +136,7 @@ li a {
  }
  .about-me-middle h2{
     font-size: 2.2em;
-    color: #D27D2D;
+    color: rgb(84, 231, 84);;
     margin-bottom: 3em;
  }
  .skills{
@@ -163,7 +164,7 @@ li a {
     display: flex;
  }
  .seminars-trainings-block h2{
-   color: #D27D2D;
+   color: rgb(84, 231, 84);
    font-size: 2.2em;
    justify-content: center;
  }
@@ -259,7 +260,7 @@ li a {
    text-align: center;
  }
  #services h3{
-   color: yellow;
+   color: rgb(84, 231, 84);
    font-size: 1.5em;
    text-align: center;
  }
