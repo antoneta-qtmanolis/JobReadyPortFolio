@@ -68,8 +68,8 @@ li a {
     margin-bottom: 100px;
  }
  .intro{
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
     margin-left: 220px;
  }
  .intro h1{
