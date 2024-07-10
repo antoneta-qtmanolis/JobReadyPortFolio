@@ -277,24 +277,72 @@ li a {
  .service-one h4{
    margin-left: 50px;
    margin-right: 50px;
-   justify-content: center;
+   text-align: center;
+   color: #C1E1C1;
+   font-weight: 600;
  }
  .service-two h4{
    margin-left: 50px;
    margin-right: 50px;
-   justify-content: center;
+   text-align: center;
+   color: #C1E1C1;
+   font-weight: 600;
  }
  .service-three h4{
    margin-left: 50px;
    margin-right: 50px;
-   justify-content: center;
+   text-align: center;
+   color: #C1E1C1;
+   font-weight: 600;
  }
  .service-four h4{
    margin-left: 50px;
    margin-right: 50px;
-   justify-content: center;
+   text-align: center;
+   color: #C1E1C1;
+   font-weight: 600;
  }
-
+ .service-one{
+   margin-left: 20px;
+   margin-right: 20px;
+   place-items: center;
+ }
+.service-one img{
+   width: 240px;
+   height: 240px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.service-two{
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+.service-two img{
+   width: 240px;
+   height: 240px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.service-three{
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+.service-three img{
+   width: 240px;
+   height: 240px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.service-four{
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+.service-four img{
+   width: 240px;
+   height: 240px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
 
 
 
