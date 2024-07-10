@@ -137,7 +137,8 @@ li a {
     text-align: center;
  }
  .about-me-middle h2{
-    font-size: 2.2em;
+    font-size: 1.9em;
+    font-weight: 300;
     color: rgb(84, 231, 84);;
     margin-bottom: 3em;
  }
@@ -165,11 +166,12 @@ li a {
     margin-left: 0;
     display: flex;
     width: auto;
-   height: auto;
+    height: auto;
  }
  .seminars-trainings-block h2{
    color: rgb(84, 231, 84);
-   font-size: 2.2em;
+   font-size: 1.9em;
+   font-weight: 300;
    justify-content: center;
  }
 .seminars-block{
@@ -317,46 +319,46 @@ li a {
    text-transform: uppercase;
  }
  .service-one{
-   margin-left: 20px;
+   margin-left: 10px;
    margin-right: 20px;
    place-items: center;
  }
 .service-one img{
    width: 230px;
    height: 210px;
-   margin-left: 10px;
+   margin-left: 43px;
    margin-right: 10px;
 }
 .service-two{
-   margin-left: 20px;
+   margin-left: 10px;
    margin-right: 20px;
-   margin-top: 77px;
+   margin-top: 85px;
  }
 .service-two img{
    width: 220px;
    height: 210px;
-   margin-left: 10px;
+   margin-left: 43px;
    margin-right: 10px;
 }
 .service-three{
-   margin-left: 20px;
+   margin-left: 10px;
    margin-right: 20px;
  }
 .service-three img{
    width: 220px;
    height: 210px;
-   margin-left: 20px;
+   margin-left: 43px;
    margin-right: 10px;
 }
 .service-four{
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-top: 77px;
+   margin-left: 10px;
+   margin-right: 40px;
+   margin-top: 85px;
  }
 .service-four img{
    width: 220px;
    height: 210px;
-   margin-left: 10px;
+   margin-left: 43px;
    margin-right: 10px;
 }
 
