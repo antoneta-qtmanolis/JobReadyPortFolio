@@ -102,7 +102,9 @@ li a {
     margin-top: 120px;
     margin-left: 0%;
     margin-right: 0;
-    margin-bottom: 100px;
+    margin-bottom: 250px;
+    width: auto;
+    height: auto;
  }
  .about-me-top{
     display: flex;
@@ -162,6 +164,8 @@ li a {
     margin-bottom: 100px;
     margin-left: 0;
     display: flex;
+    width: auto;
+   height: auto;
  }
  .seminars-trainings-block h2{
    color: rgb(84, 231, 84);
@@ -256,51 +260,61 @@ li a {
 
 /* Services Section */
 #services{
-   margin-top: 120px;
+   margin-top: 150px;
    margin-bottom: 100px;
 }
 #services h2{
    color: #D27D2D;
    font-size: 2.2em;
    text-align: center;
+   margin-bottom: 0;
  }
  #services h3{
-   color: rgb(84, 231, 84);
+   color: rgb(134, 134, 134);
+   font-weight:300;
    font-size: 1.5em;
+   margin-top: 9px;
+   margin-bottom: 20px;
    text-align: center;
  }
  .services-block{
    display: flex;
-   margin-top: 50px;
+   width: auto;
+   height: auto;
    justify-content: center;
+   margin-top: 100px;
  }
  .service-one h4{
    margin-left: 50px;
    margin-right: 50px;
    text-align: center;
-   color: #C1E1C1;
+   color: rgb(84, 231, 84);
    font-weight: 600;
+   text-transform: uppercase;
  }
  .service-two h4{
    margin-left: 50px;
    margin-right: 50px;
    text-align: center;
-   color: #C1E1C1;
+   color: rgb(84, 231, 84);
    font-weight: 600;
+   text-transform: uppercase;
  }
  .service-three h4{
    margin-left: 50px;
    margin-right: 50px;
    text-align: center;
-   color: #C1E1C1;
+   color: rgb(84, 231, 84);
    font-weight: 600;
+   text-transform: uppercase;
  }
  .service-four h4{
    margin-left: 50px;
    margin-right: 50px;
    text-align: center;
-   color: #C1E1C1;
+   color: rgb(84, 231, 84);
    font-weight: 600;
+   text-transform: uppercase;
  }
  .service-one{
    margin-left: 20px;
@@ -308,18 +322,19 @@ li a {
    place-items: center;
  }
 .service-one img{
-   width: 240px;
-   height: 240px;
+   width: 230px;
+   height: 210px;
    margin-left: 10px;
    margin-right: 10px;
 }
 .service-two{
    margin-left: 20px;
    margin-right: 20px;
+   margin-top: 77px;
  }
 .service-two img{
-   width: 240px;
-   height: 240px;
+   width: 220px;
+   height: 210px;
    margin-left: 10px;
    margin-right: 10px;
 }
@@ -328,20 +343,144 @@ li a {
    margin-right: 20px;
  }
 .service-three img{
-   width: 240px;
-   height: 240px;
-   margin-left: 10px;
+   width: 220px;
+   height: 210px;
+   margin-left: 20px;
    margin-right: 10px;
 }
 .service-four{
    margin-left: 20px;
    margin-right: 20px;
+   margin-top: 77px;
  }
 .service-four img{
-   width: 240px;
-   height: 240px;
+   width: 220px;
+   height: 210px;
    margin-left: 10px;
    margin-right: 10px;
+}
+
+
+
+#projects{
+   margin-top: 280px;
+   margin-bottom: 250px;
+   margin-left: 0;
+   margin-right: 0;
+}
+#projects h2{
+   color: #D27D2D;
+   font-size: 2.2em;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 90px;
+ }
+
+
+.project-card-one{
+   display: flex;
+   margin-bottom: 150px;
+   margin-top: 50px;
+}
+.project-card-one h3{
+   margin-bottom: 0;
+   font-size: 1em;
+   font-weight: 700;
+   color: rgb(84, 231, 84);
+   text-align: center;
+}
+.project-card-one h4{
+   margin-top: 0;
+   font-size: 0.7em;
+   font-weight: 900;
+   color: rgb(134, 134, 134);
+   text-align: center;
+}
+.diadecafe{
+   margin-left: 105px;
+}
+.diadecafe img{
+   width: 535px;
+   height: 340px;
+}
+.tasktracer{
+   margin-left: 197px;
+}
+.tasktracer img{
+   margin-left: 50px;
+   width: 150px;
+   height: 340px;
+}
+
+
+
+
+.project-card-two{
+   display: flex;
+   margin-bottom: 150px;
+}
+.project-card-two h3{
+   margin-bottom: 0;
+   font-size: 1em;
+   font-weight: 700;
+   color: rgb(84, 231, 84);
+   text-align: center;
+}
+.project-card-two h4{
+   margin-top: 0;
+   font-size: 0.7em;
+   font-weight:900;
+   color: rgb(134, 134, 134);
+   text-align: center;
+}
+.hopebridge{
+   margin-left: 105px;
+}
+.hopebridge img{
+   width: 530px;
+   height: 340px;
+}
+.goaltracker{
+   margin-left: 167px;
+}
+.goaltracker img{
+   margin-left:90px;
+   width: 150px;
+   height: 340px;
+}
+
+
+
+.project-card-three{
+   display: flex;
+}
+.project-card-three h3{
+   margin-bottom: 0;
+   font-size: 1em;
+   font-weight: 700;
+   color: rgb(84, 231, 84);
+   text-align: center;
+}
+.project-card-three h4{
+   margin-top: 0;
+   font-size: 0.7em;
+   font-weight: 900;
+   color: rgb(134, 134, 134);
+   text-align: center;
+}
+.dormvista{
+   margin-left: 105px;
+}
+.dormvista img{
+   width: 530px;
+   height: 310px;
+}
+.ielect{
+   margin-left: 60px;
+}
+.ielect img{
+   width: 530px;
+   height: 310px;
 }
 
 
@@ -352,10 +491,12 @@ li a {
 
 
 
- .projects-block img{
-    width: 100px;
-    height: 90px;
- }
+
+
+
+
+
+
 
 
 
