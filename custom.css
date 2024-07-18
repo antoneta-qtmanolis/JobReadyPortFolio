@@ -523,11 +523,14 @@ li a {
    color: rgb(250, 213, 165);
  }
  .social-media-block{
+   display: flex;
    margin-top: 30px;
- }
-.social-media-block img{
+   gap: 0;
+}
+.social-media-block a img{
    width:40px;
    height: 40px;
+   display: block;
 }
 
 
